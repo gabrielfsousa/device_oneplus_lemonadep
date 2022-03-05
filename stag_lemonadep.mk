@@ -14,6 +14,9 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/stag/main.mk)
 
+# Extra Animations
+EXTRA_UDFPS_ANIMATIONS := true
+
 PRODUCT_NAME := stag_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
