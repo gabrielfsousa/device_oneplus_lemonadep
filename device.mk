@@ -30,7 +30,8 @@ TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    PixelSetupWizard9PStringsOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
