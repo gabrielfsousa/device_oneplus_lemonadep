@@ -23,6 +23,9 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_PACKAGES += \
     init.recovery.target.rc
 
+# Override  OTA assert
+TARGET_OTA_ASSERT_DEVICE := lemonadep,OnePlus9Pro
+
 # Overlays
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
